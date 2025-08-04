@@ -15,7 +15,7 @@ display:flex ;
 flex-wrap: wrap;
 justify-content: space-between;
 padding: 4rem;
-gap: 3rem
+gap: 3rem;
 }
 .cartao {
 margin: 1rem 1rem;
@@ -23,7 +23,7 @@ background-color: rgb(9, 208, 208);
 height: 20rem;
 flex-grow: 1;
 flex-basis: calc(33% -6rem);
-
+}
 .cartao__conteudo h3 {
 color: var(--text-color);
 border: 1px solid var(--text-color);;
@@ -50,11 +50,16 @@ transition: transform 300ms ease-in-out;
 margin-top: 1rem;
 padding: 2rem;
 margin-top: 4rem;
+font-size: 1.4vw;
 }
 
 .cartao__conteudo__pergunta p{
 color: var(--text-color);
 font-weight: 500;
+}
+.cartao__conteudo__resposta p{
+    color: var(--card-back-color);
+    font-weight: 700;
 }
 .cartao:hover .cartao__conteudo {
 transform: rotateY(180deg);
