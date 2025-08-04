@@ -1,14 +1,14 @@
 
 criaCartao(
-    'Programação',
+    'politica',
     'quantos anos tem o lula?',
     '79 anos'
 )
 
 criaCartao(
     'Geografia',
-    'Qual a capital da França?',
-    'A capital da França é Paris'
+    'Qual a capital da russia?',
+    'A capital da russia e moscou'
 )
 
 criaCartao(
@@ -18,6 +18,6 @@ criaCartao(
 )
     criaCartao(
     'Lingua inglesa',
-    'Como se diz OI em inglês?',
-    'Oi em ingles é HI (RAI)'
+    'Como se diz ola em inglês?',
+    'hello'
 )
